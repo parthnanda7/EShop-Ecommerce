@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=
+    , initial-scale=1.0">
+  <title>e shop</title>
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="style.css">
+  <!-- swiper -->
+
+  <!-- ui kit -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.10.1/dist/css/uikit.min.css" />
+
+</head>
+
+<body>
+  <header class="header_area header_black d-none d-lg-block d-xl-block">
+    <!-- header top starts -->
+
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 col-md-6">
+          <div class="social_icone">
+            <ul>
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+              <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6">
+          <div class="top_right text-right">
+            <ul>
+              <li class="language">
+                <a href="#">English <i class="fas fa-angle-down"></i></a>
+                <ul class="dropdown_language">
+                  <li><a href="#">Gujarati</a></li>
+                  <li><a href="#">Germany</a></li>
+                  <li><a href="#">Hindi</a></li>
+                </ul>
+              </li>
+              <li class="currency">
+                <a href="#">INR <i class="fas fa-angle-down"></i></a>
+                <ul class="dropdown_currency">
+                  <li><a href="#">USD - Dollar</a></li>
+                  <li><a href="#">EUR - Euro</a></li>
+                  <li><a href="#">AED - UAE Dhiram</a></li>
+                </ul>
+              </li>
+              <li class="top_links">
+                <a href="#">My Account <i class="fas fa-angle-down"></i></a>
+                <ul class="dropdown_links">
+                  <li><a href="#">login</a></li>
+                  <li><a href="#">Sign Up</a></li>
+                  <li><a href="#">Cart</a></li>
+                  <li><a href="#">Log out</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- header top ends -->
+
+    <!-- header middle starts -->
+
+    <div class="container header_middel">
+      <div class="row align-items-center">
+
+        <div class="col-lg-5">
+          <div class="home_contact">
+            <div class="contact_icone">
+              <i class="fas fa-phone-square-alt "></i>
+            </div>
+            <div class="contact_box">
+              <p> Mo : <a href="tel: 8128885664">8128885664</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 col-4">
+          <div class="logo">
+            <a href="index.html"><img src="https://eshopweb.store/uploads/media/2021/eshop-logo-full.png"
+                alt="logo"></a>
+          </div>
+        </div>
+
+        <div class="col-lg-5 col-md-7 col-6">
+          <div class="middel_right">
+            <div class="search_btn">
+              <a href="#"><i class="fas fa-search"></i></a>
+              <div class="dropdown_search">
+                <form action="#">
+                  <input type="text" placeholder="Search Product ....">
+                  <button type="submit"><i class="fas fa-search"></i></button>
+                </form>
+              </div>
+            </div>
+            <div class="wishlist_btn">
+              <a href="#"><i class="fas fa-heart text-danger"></i></a>
+            </div>
+            <div class="cart_link">
+              <a href="#"><i class="fas fa-shopping-cart"></i></a>
+              <span class="cart_quantity">2</span>
+
+              <!-- mini cart -->
+              <div class="mini_cart">
+                <div class="cart_close">
+                  <div class="cart_text">
+                    <h3>cart</h3>
+                  </div>
+                  <div class="mini_cart_close">
+                    <a href="javascript:void(0)"><i class="fas fa-times"></i></a>
+                  </div>
+                </div>
+                <div class="cart_item">
+                  <div class="cart_img">
+                    <a href="#"><img src="https://m.media-amazon.com/images/I/71zny7BTRlL._SL1500_.jpg" alt=""></a>
+                  </div>
+                  <div class="cart_info">
+                    <a href="#">airpods pro</a>
+                    <span class="quantity">Qty : 1</span>
+                    <span class="price_cart">Rs. 18,999</span>
+                  </div>
+                  <div class="cart_remove">
+                    <a href="#"><i class="fas fa-times"></i></a>
+                  </div>
+                </div>
+                <div class="cart_item">
+                  <div class="cart_img">
+                    <a href="#"><img src="https://m.media-amazon.com/images/I/61i8Vjb17SL._SL1500_.jpg" alt=""></a>
+                  </div>
+                  <div class="cart_info">
+                    <a href="#">i phone 13 pro max</a>
+                    <span class="quantity">Qty : 1</span>
+                    <span class="price_cart">Rs. 1,29,999</span>
+                  </div>
+                  <div class="cart_remove">
+                    <a href="#"><i class="fas fa-times"></i></a>
+                  </div>
+                </div>
+                <div class="cart_total">
+                  <span>Subtotal : </span>
+                  <span>Rs. 1,48,998</span>
+                </div>
+                <div class="mini_cart_footer">
+                  <div class="cart_button view_cart">
+                    <a href="#">View Cart</a>
+                  </div>
+                  <div class="cart_button checkout">
+                    <a href="#" class="active">Checkout</a>
+                  </div>
+                </div>
+              </div>
+              <!-- mini cart ends  -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- header middle ends -->
+
+    <!-- header bottom starts -->
+
+    <div class="header_bottom sticky-header">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12">
+            <div class="main_menu_inner ">
+              <div class="logo_sticky col-3">
+                <a href="#"><img src="https://eshopweb.store/uploads/media/2021/eshop-logo-full.png" alt="logo"></a>
+              </div>
+              <div class="main_menu  col-9">
+                <nav>
+                  <ul>
+                    <li class="active">
+                      <a href="index.html">Home</a>
+
+                    </li>
+                    <li>
+                      <a href="#">Category <i class="fas fa-angle-down"></i></a>
+                      <ul class="mega_menu">
+                        <li>
+                          <a href="#"><i class="fas fa-laptop-code"></i> Electronics</a>
+                          <ul>
+                            <li><a href="#"><i class="fas fa-laptop"></i> Laptops</a></li>
+                            <li><a href="#"><i class="fas fa-headphones"></i> Headphones</a></li>
+                            <li><a href="#"><i class="fas fa-watch"></i> Smartwatches</a></li>
+                            <li><a href="#"><i class="fas fa-camera"></i> Cameras</a></li>
+                            <li><a href="#"><i class="fas fa-keyboard"></i> Computer Accessories</a></li>
+                          </ul>
+                        </li>
+                        <li>
+                          <a href="#"><i class="fas fa-tshirt"></i> Fashion</a>
+                          <ul>
+                            <li><a href="#"><i class="fas fa-male"></i> Men</a></li>
+                            <li><a href="#"><i class="fas fa-female"></i> Woman</a></li>
+                            <li><a href="#"><i class="fas fa-paint-brush"></i> Beauty</a></li>
+                            <li><a href="#"><i class="fas fa-child"></i> Kids Collection</a></li>
+                            <li><a href="#"><i class="fas fa-hat-wizard"></i> Accessories</a></li>
+                          </ul>
+                        </li>
+                        <li>
+                          <a href="#"><i class="fas fa-globe"></i> Other</a>
+                          <ul>
+                            <li><a href="#"><i class="fas fa-shopping-basket"></i> Grocery</a></li>
+                            <li><a href="#"><i class="fab fa-apple"></i> Appliences</a></li>
+                            <li><a href="#"><i class="fas fa-gamepad"></i> Games</a></li>
+                            <li><a href="#"><i class="fas fa-book"></i> Books</a></li>
+                            <li><a href="#"><i class="fas fa-dice-three"></i> Toys</a></li>
+                          </ul>
+                        </li>
+
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">pages <i class="fas fa-angle-down"></i></a>
+                      <ul class="sub_menu pages">
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">My account</a></li>
+                        <li><a href="#">cart</a></li>
+                        <li><a href="#">Wishlist</a></li>
+                        <li><a href="#">Checkout</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">About</a></li>
+                    <li>
+                      <a href="#"> contact</a>
+
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- header bottom ends -->
+  </header>
+
+  <!-- mobile navigation  -->
+  <div class="header-area fixed-top">
+
+    <div class="header-small-device small-device-ptb-1">
+      <div class="row align-items-center">
+        <div class="col-6">
+          <div class="mobile-logo">
+            <div class="logo">
+              <a href="index.html"><img src="https://eshopweb.store/uploads/media/2021/eshop-logo-full.png"
+                  alt="logo"></a>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col-6">
+          <div class="header-action header-action-flex">
+            <div class="same-style-2">
+              <a href="#"><i class="fas fa-user"></i></a>
+            </div>
+            <div class="same-style-2 header-cart">
+
+              <a href="#"><i class="fas fa-shopping-cart"></i></a>
+
+              <!-- mini cart -->
+              <div class="mini_cart">
+                <div class="cart_close">
+                  <div class="cart_text">
+                    <h3>cart</h3>
+                  </div>
+                  <div class="mini_cart_close">
+                    <a href="javascript:void(0)"><i class="fas fa-times"></i></a>
+                  </div>
+                </div>
+                <div class="cart_item">
+                  <div class="cart_img">
+                    <a href="#"><img src="https://m.media-amazon.com/images/I/71zny7BTRlL._SL1500_.jpg" alt=""></a>
+                  </div>
+                  <div class="cart_info">
+                    <a href="#">airpods pro</a>
+                    <span class="quantity">Qty : 1</span>
+                    <span class="price_cart">Rs. 18,999</span>
+                  </div>
+                  <div class="cart_remove">
+                    <a href="#"><i class="fas fa-times"></i></a>
+                  </div>
+                </div>
+                <div class="cart_item">
+                  <div class="cart_img">
+                    <a href="#"><img src="https://m.media-amazon.com/images/I/61i8Vjb17SL._SL1500_.jpg" alt=""></a>
+                  </div>
+                  <div class="cart_info">
+                    <a href="#">i phone 13 pro max</a>
+                    <span class="quantity">Qty : 1</span>
+                    <span class="price_cart">Rs. 1,29,999</span>
+                  </div>
+                  <div class="cart_remove">
+                    <a href="#"><i class="fas fa-times"></i></a>
+                  </div>
+                </div>
+                <div class="cart_total">
+                  <span>Subtotal : </span>
+                  <span>Rs. 1,48,998</span>
+                </div>
+                <div class="mini_cart_footer">
+                  <div class="cart_button view_cart">
+                    <a href="#">View Cart</a>
+                  </div>
+                  <div class="cart_button checkout">
+                    <a href="#" class="active">Checkout</a>
+                  </div>
+                </div>
+              </div>
+              <!-- mini cart ends  -->
+            </div>
+            <div class="same-style-2 main-menu-icon">
+              <a class="mobile-header-button-active" href="#"><i class="fas fa-bars"></i> </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile menu start -->
+    <div class="mobile-header-active mobile-header-wrapper-style">
+      <div class="clickalbe-sidebar-wrap">
+        <a class="sidebar-close"><i class="fas fa-times"></i></a>
+        <div class="mobile-header-content-area">
+          <div class="mobile-search mobile-header-padding-border-1">
+            <form class="search-form" action="#">
+              <input type="text" placeholder="Search here…">
+              <button class="button-search"><i class="fas fa-search"></i></button>
+            </form>
+          </div>
+          <div class="mobile-menu-wrap mobile-header-padding-border-2">
+            <!-- mobile menu start -->
+            <nav>
+              <ul class="mobile-menu">
+                <li><a href="index.html">Home</a></li>
+                <li class="menu-item-has-children"><a href="#">My account</a>
+                  <ul class="dropdown">
+
+                    <li><a href="#">login</a></li>
+                    <li><a href="#">Sign Up</a></li>
+                    <li><a href="#">Cart</a></li>
+                    <li><a href="#">Log out</a></li>
+                  </ul>
+                </li>
+
+
+
+                <li class="menu-item-has-children "><a href="#">Category</a>
+                  <ul class="dropdown">
+                    <li class="menu-item-has-children"><a href="#">Electronics</a>
+                      <ul class="dropdown">
+                        <li><a href="#"><i class="fas fa-laptop"></i> Laptops</a></li>
+                        <li><a href="#"><i class="fas fa-headphones"></i> Headphones</a></li>
+                        <li><a href="#"><i class="fas fa-watch"></i> Smartwatches</a></li>
+                        <li><a href="#"><i class="fas fa-camera"></i> Cameras</a></li>
+                        <li><a href="#"><i class="fas fa-keyboard"></i> Computer Accessories</a></li>
+
+                      </ul>
+                    </li>
+                    <li class="menu-item-has-children"><a href="#">Fashion</a>
+                      <ul class="dropdown">
+                        <li><a href="#"><i class="fas fa-male"></i> Men</a></li>
+                        <li><a href="#"><i class="fas fa-female"></i> Woman</a></li>
+                        <li><a href="#"><i class="fas fa-paint-brush"></i> Beauty</a></li>
+                        <li><a href="#"><i class="fas fa-child"></i> Kids Collection</a></li>
+                        <li><a href="#"><i class="fas fa-hat-wizard"></i> Accessories</a></li>
+                      </ul>
+                    </li>
+                    <li class="menu-item-has-children"><a href="#">Other</a>
+                      <ul class="dropdown">
+                        <li><a href="#"><i class="fas fa-shopping-basket"></i> Grocery</a></li>
+                        <li><a href="#"><i class="fab fa-apple text-white"></i> Appliences</a></li>
+                        <li><a href="#"><i class="fas fa-gamepad"></i> Games</a></li>
+                        <li><a href="#"><i class="fas fa-book"></i> Books</a></li>
+                        <li><a href="#"><i class="fas fa-dice-three"></i> Toys</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu-item-has-children"><a href="#">Pages</a>
+                  <ul class="dropdown">
+
+                    <li><a href="#">My account</a></li>
+                    <li><a href="#">cart</a></li>
+                    <li><a href="#">Wishlist</a></li>
+                    <li><a href="#">Checkout</a></li>
+                  </ul>
+                </li>
+                <li><a href="contact.html">About</a></li>
+
+                <li><a href="contact.html">Contact </a></li>
+              </ul>
+            </nav>
+            <!-- mobile menu end -->
+          </div>
+          <div class="mobile-social-icon">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  <!-- home/about area -->
+  <div class="breadcrumb-area ">
+    <div class="container">
+        <div class="breadcrumb-content text-center">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="active">about us </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="checkout-main-area pt-70 pb-70">
+  <div class="container">
+      <div class="customer-zone mb-20">
+          <p class="cart-page-title">Returning customer? <a class=" uk-button" href="#">Click here to login</a></p>
+          <div class="checkout-login-info">
+              <p>If you have shopped with us before, please enter your details in the boxes below. If you are a new customer, please proceed to the Billing & Shipping section.</p>
+              <form action="#">
+                  <div class="row">
+                      <div class="col-lg-6 col-md-6">
+                          <div class="sin-checkout-login">
+                              <label>Username or email address <span>*</span></label>
+                              <input type="text" name="user-name"/>
+                          </div>
+                      </div>
+                      <div class="col-lg-6 col-md-6">
+                          <div class="sin-checkout-login">
+                              <label>Passwords <span>*</span></label>
+                              <input type="password" name="user-password"/>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="button-remember-wrap">
+                      <button class="button" type="submit">Login</button>
+                      <div class="checkout-login-toggle-btn">
+                          <input type="checkbox"/>
+                          <label>Remember me</label>
+                      </div>
+                  </div>
+                  <div class="lost-password">
+                      <a href="#">Lost your password?</a>
+                  </div>
+              </form>
+              <div class="checkout-login-social">
+                  <span>Login with:</span>
+                  <ul>
+                      <li><a href="#">Facebook</a></li>
+                      <li><a href="#">Twitter</a></li>
+                      <li><a href="#">Google</a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+      <div class="customer-zone mb-20">
+          <p class="cart-page-title">Have a coupon? <a class="checkout-click3" href="#">Click here to enter your code</a></p>
+          <div class="checkout-login-info3">
+              <form action="#">
+                  <input type="text" placeholder="Coupon code"/>
+                  <input type="submit" value="Apply Coupon"/>
+              </form>
+          </div>
+      </div>
+      <div class="checkout-wrap pt-30">
+          <div class="row">
+              <div class="col-lg-7">
+                  <div class="billing-info-wrap mr-50">
+                      <h3>Billing Details</h3>
+                      <div class="row">
+                          <div class="col-lg-6 col-md-6">
+                              <div class="billing-info mb-20">
+                                  <label>First Name <abbr class="required" title="required">*</abbr></label>
+                                  <input type="text"/>
+                              </div>
+                          </div>
+                          <div class="col-lg-6 col-md-6">
+                              <div class="billing-info mb-20">
+                                  <label>Last Name <abbr class="required" title="required">*</abbr></label>
+                                  <input type="text"/>
+                              </div>
+                          </div>
+                          <div class="col-lg-12">
+                              <div class="billing-info mb-20">
+                                  <label>Company Name <abbr class="required" title="required">*</abbr></label>
+                                  <input type="text"/>
+                              </div>
+                          </div>
+                          <div class="col-lg-12">
+                              <div class="billing-select mb-20">
+                                  <label>Country <abbr class="required" title="required">*</abbr></label>
+                                  <select>
+                                      <option>Select a country</option>
+                                      <option>Azerbaijan</option>
+                                      <option>Bahamas</option>
+                                      <option>Bahrain</option>
+                                      <option>Bangladesh</option>
+                                      <option>Barbados</option>
+                                  </select>
+                              </div>
+                          </div>
+                          <div class="col-lg-12">
+                              <div class="billing-info mb-20">
+                                  <label>Street Address <abbr class="required" title="required">*</abbr></label>
+                                  <input class="billing-address" placeholder="House number and street name" type="text"/>
+                                  <input placeholder="Apartment, suite, unit etc." type="text"/>
+                              </div>
+                          </div>
+                          <div class="col-lg-12">
+                              <div class="billing-info mb-20">
+                                  <label>Town / City <abbr class="required" title="required">*</abbr></label>
+                                  <input type="text"/>
+                              </div>
+                          </div>
+                          <div class="col-lg-12 col-md-12">
+                              <div class="billing-info mb-20">
+                                  <label>State / County <abbr class="required" title="required">*</abbr></label>
+                                  <input type="text"/>
+                              </div>
+                          </div>
+                          <div class="col-lg-12 col-md-12">
+                              <div class="billing-info mb-20">
+                                  <label>Postcode / ZIP <abbr class="required" title="required">*</abbr></label>
+                                  <input type="text"/>
+                              </div>
+                          </div>
+                          <div class="col-lg-12 col-md-12">
+                              <div class="billing-info mb-20">
+                                  <label>Phone <abbr class="required" title="required">*</abbr></label>
+                                  <input type="text"/>
+                              </div>
+                          </div>
+                          <div class="col-lg-12 col-md-12">
+                              <div class="billing-info mb-20">
+                                  <label>Email Address <abbr class="required" title="required">*</abbr></label>
+                                  <input type="text"/>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="checkout-account mb-25">
+                          <input class="checkout-toggle2" type="checkbox"/>
+                          <span>Create an account?</span>
+                      </div>
+                      <div class="checkout-account-toggle open-toggle2 mb-30">
+                          <label>Email Address</label>
+                          <input placeholder="Password" type="password"/>
+                      </div>
+                      <div class="checkout-account mt-25">
+                          <input class="checkout-toggle" type="checkbox"/>
+                          <span>Ship to a different address?</span>
+                      </div>
+                      <div class="different-address open-toggle mt-30">
+                          <div class="row">
+                              <div class="col-lg-6 col-md-6">
+                                  <div class="billing-info mb-20">
+                                      <label>First Name</label>
+                                      <input type="text"/>
+                                  </div>
+                              </div>
+                              <div class="col-lg-6 col-md-6">
+                                  <div class="billing-info mb-20">
+                                      <label>Last Name</label>
+                                      <input type="text"/>
+                                  </div>
+                              </div>
+                              <div class="col-lg-12">
+                                  <div class="billing-info mb-20">
+                                      <label>Company Name</label>
+                                      <input type="text"/>
+                                  </div>
+                              </div>
+                              <div class="col-lg-12">
+                                  <div class="billing-select mb-20">
+                                      <label>Country</label>
+                                      <select>
+                                          <option>Select a country</option>
+                                          <option>Azerbaijan</option>
+                                          <option>Bahamas</option>
+                                          <option>Bahrain</option>
+                                          <option>Bangladesh</option>
+                                          <option>Barbados</option>
+                                      </select>
+                                  </div>
+                              </div>
+                              <div class="col-lg-12">
+                                  <div class="billing-info mb-20">
+                                      <label>Street Address</label>
+                                      <input class="billing-address" placeholder="House number and street name" type="text"/>
+                                      <input placeholder="Apartment, suite, unit etc." type="text"/>
+                                  </div>
+                              </div>
+                              <div class="col-lg-12">
+                                  <div class="billing-info mb-20">
+                                      <label>Town / City</label>
+                                      <input type="text"/>
+                                  </div>
+                              </div>
+                              <div class="col-lg-6 col-md-6">
+                                  <div class="billing-info mb-20">
+                                      <label>State / County</label>
+                                      <input type="text"/>
+                                  </div>
+                              </div>
+                              <div class="col-lg-6 col-md-6">
+                                  <div class="billing-info mb-20">
+                                      <label>Postcode / ZIP</label>
+                                      <input type="text"/>
+                                  </div>
+                              </div>
+                              <div class="col-lg-6 col-md-6">
+                                  <div class="billing-info mb-20">
+                                      <label>Phone</label>
+                                      <input type="text"/>
+                                  </div>
+                              </div>
+                              <div class="col-lg-6 col-md-6">
+                                  <div class="billing-info mb-20">
+                                      <label>Email Address</label>
+                                      <input type="text"/>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="additional-info-wrap">
+                          <label>Order notes</label>
+                          <textarea placeholder="Notes about your order, e.g. special notes for delivery. " name="message"></textarea>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-5">
+                  <div class="your-order-area">
+                      <h3>Your order</h3>
+                      <div class="your-order-wrap gray-bg-4">
+                          <div class="your-order-info-wrap">
+                              <div class="your-order-info">
+                                  <ul>
+                                      <li>Product <span>Total</span></li>
+                                  </ul>
+                              </div>
+                              <div class="your-order-middle">
+                                  <ul>
+                                      <li>Product Name  X  1 <span>$329 </span></li>
+                                      <li>Product Name  X  1 <span>$329 </span></li>
+                                  </ul>
+                              </div>
+                              <div class="your-order-info order-subtotal">
+                                  <ul>
+                                      <li>Subtotal <span>$329 </span></li>
+                                  </ul>
+                              </div>
+                              <div class="your-order-info order-shipping">
+                                  <ul>
+                                      <li>Shipping <p>Enter your full address to see shipping <br/>costs. </p></li>
+                                  </ul>
+                              </div>
+                              <div class="your-order-info order-total">
+                                  <ul>
+                                      <li>Total <span>$273.00 </span></li>
+                                  </ul>
+                              </div>
+                          </div>
+                          <div class="payment-method">
+                              <div class="pay-top sin-payment">
+                                  <input id="payment_method_1" class="input-radio" type="radio" value="cheque" checked="checked" name="payment_method"/>
+                                  <label for="payment_method_1"> Direct Bank Transfer </label>
+                                  <div class="payment-box payment_method_bacs">
+                                  <p>Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order will not be shipped until the funds have cleared in our account.</p>
+                                  </div>
+                              </div>
+                              <div class="pay-top sin-payment">
+                                  <input id="payment-method-2" class="input-radio" type="radio" value="cheque" name="payment_method"/>
+                                  <label for="payment-method-2">Check payments</label>
+                                  <div class="payment-box payment_method_bacs">
+                                  <p>Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order will not be shipped until the funds have cleared in our account.</p>
+                                  </div>
+                              </div>
+                              <div class="pay-top sin-payment">
+                                  <input id="payment-method-3" class="input-radio" type="radio" value="cheque" name="payment_method"/>
+                                  <label for="payment-method-3">Cash on delivery </label>
+                                  <div class="payment-box payment_method_bacs">
+                                  <p>Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order will not be shipped until the funds have cleared in our account.</p>
+                                  </div>
+                              </div>
+                              <div class="pay-top sin-payment sin-payment-3">
+                                  <input id="payment-method-4" class="input-radio" type="radio" value="cheque" name="payment_method"/>
+                                  <label for="payment-method-4">PayPal <img alt="" src="assets/img/icon-img/payment.png"/><a href="#">What is PayPal?</a></label>
+                                  <div class="payment-box payment_method_bacs">
+                                  <p>Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order will not be shipped until the funds have cleared in our account.</p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="Place-order mt-40">
+                          <a href="#">Place Order</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- START FOOTER -->
+<footer class="footer_dark mt-5">
+	<div class="footer_top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                	<div class="widget">
+                        <div class="footer_logo">
+                          <div class="logo">
+                            <a href="index.html"><img src="https://eshopweb.store/uploads/media/2021/eshop-logo-full.png"
+                                alt="logo"></a>
+                          </div>
+                        </div>
+                        <p class="text-light">eShop is a multipurpose Ecommerce Platform best suitable for all kinds of sectors like Electronics, Fashion, Groceries and Vegetables, Flowers, Gift articles, Medical, and more ..</p>
+                    </div>
+                    
+        		</div>
+                <div class="col-lg-2 col-md-3 col-sm-6">
+                	<div class="widget">
+                        <h6 class="widget_title">category </h6>
+                        <ul class="widget_links">
+                          <li><a href="#"><i class="fas fa-male"></i> Men</a></li>
+                          <li><a href="#"><i class="fas fa-female"></i> Woman</a></li>
+                          <li><a href="#"><i class="fas fa-paint-brush"></i> Beauty</a></li>
+                          <li><a href="#"><i class="fas fa-child"></i> Kids Collection</a></li>
+                          <li><a href="#"><i class="fas fa-hat-wizard"></i> Accessories</a></li>
+                          <li><a href="#"><i class="fas fa-gamepad"></i> Games</a></li>
+                          <li><a href="#"><i class="fas fa-book"></i> Books</a></li>
+                          <li><a href="#"><i class="fas fa-dice-three"></i> Toys</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-6">
+                	<div class="widget">
+                        <h6 class="widget_title">pages</h6>
+                        <ul class="widget_links">
+                          <li><a href="#">Products</a></li>
+                          <li><a href="#">My account</a></li>
+                          <li><a href="#">cart</a></li>
+                          <li><a href="#">Wishlist</a></li>
+                          <li><a href="#">Checkout</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                	<div class="widget">
+                        <h6 class="widget_title">My Account</h6>
+                        <ul class="widget_links">
+                            <li><a href="#">My Account</a></li>
+                            <li><a href="#">Returns</a></li>
+                            <li><a href="#">login</a></li>
+                            <li><a href="#">Sign Up</a></li>
+                            <li><a href="#">Cart</a></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                	<div class="widget">
+                        <h6 class="widget_title">Contact Info</h6>
+                        <ul class="contact_info">
+                            <li>
+                              
+                                <p class="text-white"><i class="fas fa-location-arrow"></i>  time sqaure complex, Bhuj  </p>
+                            </li>
+                            <li>
+                              <i class="fas fa-envelope"></i>
+                                <a href="mailto:info@sitename.com">info@infinitetech.com </a>
+                            </li>
+                            <li>
+                              
+                                <i class="fas fa-phone-square-alt"> </i>  <a href="callto:8128885664">8128885664 </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="social_icone">
+          <ul>
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+          </ul>
+        </div>
+        
+    </div>
+    <div class="bottom_footer border-top-tran">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="mb-md-0 text-center text-md-left">© 2020 All Rights Reserved by infinitetech</p>
+                </div>
+                <div class="col-md-6">
+                    <ul class="footer_payment text-center text-lg-right">
+                        <li><a href="#"><i class="fab fa-cc-visa"></i></a></li>
+                        <li><a href="#"><i class="fab fa-cc-discover"></i></a></li>
+                        <li><a href="#"><i class="fab fa-cc-mastercard"></i></a></li>
+                        <li><a href="#"><i class="fab fa-cc-paypal"></i></a></li>
+                        <li><a href="#"><i class="fab fa-cc-amex"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- END FOOTER -->
+  <!-- scripts -->
+
+  <!-- UIkit JS -->
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.10.1/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.10.1/dist/js/uikit-icons.min.js"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+  <script src="index.js"></script>
+  
+</body>
+
+</html>
